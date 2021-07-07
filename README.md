@@ -5,11 +5,17 @@
 ## Dependency
 
 OpenMesh 6.3
+
 Keras 2.2.0
+
 Tensorflow 1.14.0
+
 Numpy 1.16.4
+
 Scipy 1.2.0
+
 pyigl
+
 openmesh (python)
 
 -------------------------------------------------------------
