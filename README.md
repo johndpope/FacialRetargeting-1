@@ -31,7 +31,9 @@ After extracting the zip file, please copy the "model" folder to each branch, i.
 ## Testing
 
 (1) Compute deformation representation feature (RIMD feature)  -> ./RIMD_Reconstruct
+
 (2) Concate DR feature into testing data -> See example in ./Mery_human_transfer/data/people/test_data.npy
+
 (3) Run testing phase of each model -> For example: "cd Mery_human_transfer;  python main.py -l -t -m triplemoji;"
 
 -------------------------------------------------------------
