@@ -40,11 +40,24 @@ After extracting the zip file, please copy the "model" folder to each branch, i.
 
 ## Help
 
-1). The libigl library has been replaced with a new version of python binding (beta version). However the newer version does not support well for this code. Please refer to the older version in "./libigl" and compile the pyigl.so library by: "cd libigl; mkdir build; cmake ..; make python -j4;".
+1). The libigl library has been replaced with a new version of python binding (beta version). However the newer version does not support well for this code. Please refer to the older version in "./libigl" and compile the pyigl.so library by: 
+```shell
+cd libigl
+mkdir build
+cmake .
+make python -j4
+```
 
 2). To compile and run the RIMD_Reconstruct project, please first check the profile settings in "./RIMD_Reconstruct/RIMD.pro". Specifically, please replace the include path of OpenMesh library to your local one. 
 
-3). In each avatar filefolder, please re-compile the get_mesh_py module; For example, "cd ./Mery_human_transfer/src/; mkdir build; cd build; cmake ..; make -j4;". 
+3). In each avatar filefolder, please re-compile the get_mesh_py module; 
+```shell
+cd ./Mery_human_transfer/src/
+mkdir build
+cd build
+cmake .
+make -j4
+```
 
 
 ----------------------------------------------------------------
